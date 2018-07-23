@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    
+    
+<div class="container">
+<h1>Update Profile</h1>
+<form action="/update_profile" method="POST">
+    <lable for="name">Name</lable>
+
+<div class="input-container">
+<input name="name" class="form-input" value="<%= user.name %>" required/>
+</div>
+
+<lable for="dob">DOB</lable>
+<div class="input-container">
+
+<input type="date" name="dob" class="form-input" value="<%= user.dob %>" required/>
+</div>
+<lable for="email">Email</lable>
+<div class="input-container">
+
+<input type="email" name="email" class="form-input" value="<%= user.email %>" required/>
+</div>
+<lable for="password">Password</lable>
+<div class="input-container">
+
+<input type="password" name="password" class="form-input"  required/>
+</div>
+<lable for="new_password">New Password</lable>
+<div class="input-container">
+
+<input type="password" name="new_password" class="form-input"  required/>
+</div>
+    <lable for="new_password_confirmation">Confirm your New Password</lable>
+
+<div class="input-container">
+<input type="password" name="new_password_confirmation" class="form-input"  required/>
+</div>
+
+<button type="submit" class="form-btn">Save Profile</button>
+</form>
+<div class="links-container">
+ <a href="/home">Home</a>
+
+
+</div>
+</div>
+
+        <script src="main.js"></script>
+
+</body>
+</html>

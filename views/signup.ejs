@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <form action="/signup" method="POST">
+        <lable for="name">Name</lable>
+
+    <div class="input-container">
+    <input name="name" class="form-input" required/>
+    </div>
+    <lable for="dob">DOB</lable>
+<div class="input-container">
+    
+    <input type="date" name="dob" class="form-input" required/>
+    </div>
+    <lable for="email">Email</lable>
+<div class="input-container">
+    
+    <input type="email" name="email" class="form-input" required/>
+    </div>
+    <lable for="password">Password</lable>
+<div class="input-container">
+    
+    <input type="password" name="password" class="form-input" required/>
+    </div>
+        <lable for="password_confirmation">Confirm your Password</lable>
+
+<div class="input-container">
+    <input type="password" name="password_confirmation" class="form-input" required/>
+    </div>
+
+    <button type="submit" class="form-btn">SIGN UP</button>
+    </form>
+
+<div class="links-container">
+
+    Already have an account? <a href="/signin">Sign In</a>
+
+
+</div>
+</div>
+
+
+
+
+        <script src="main.js"></script>
+
+</body>
+</html>

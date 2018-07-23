@@ -1,0 +1,67 @@
+/* * {
+    font-family : verdana;
+ } */
+ .feedback {
+    font-size   :  10px;
+    color       :  blue;
+ }
+ .fa {
+    font-size   :  12px;
+ }
+ .title {
+    font-size   :  14px;
+    color       :  navy;
+ }
+ .content {
+    font-size   :  10px;
+    color       :  #333333;
+    border      :  1px solid #AAAAAA;
+    padding     :  5px;
+    text-align  :  juatify;
+ }
+ .author {
+    color          :  blue;
+    font-size      :  11px;
+    font-style     :  italic;
+    padding-left   :  8px;
+ }
+ .blog {
+    padding-bottom : 20px !important;
+ }
+ .comments {
+    color          :  blue;
+    padding-left   :  10px;
+ }
+ .likes, .comments {
+    display     :  none;
+    border      :  1px solid #CCCCCC;
+    padding     :  10px;
+    font-size   :  12px;
+ }
+ .likes {
+    background  :  #FFFFAA;
+ }
+ .comments {
+    background  :  #AAFFFF;
+ }
+ .like, .comment {
+    cursor      :  pointer;
+ }
+ .td {
+    font-size : 10px;
+ }
+ textarea {
+    width    :  250px;
+    height   :   100px;
+    resize   :  none;
+ }
+ button {
+    width    :  250px;
+ }
+ .tar {
+    display        :  none;
+    padding-left   :  20px;
+ }
+ .blue {
+    color : blue;
+ }

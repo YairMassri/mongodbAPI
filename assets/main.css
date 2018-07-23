@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background: rgb(165, 216, 236);
+}
+
+.top{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    border-bottom: 5px rgb(102, 102, 102) solid;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+.containerAddArticle{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.form-input{
+    width: 300px;
+    height: 30px;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+.add-text-input{
+    width: 300px;
+    height: 300px;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+
+.input-container{
+    padding: 10px 0px;
+}
+
+.form-btn{
+    width: 325px;
+    height: 60px;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+.links-container{
+    margin: 20px;
+}
+.userName {
+display: flex;
+justify-content: left;
+padding-right: 68vw;
+padding-left: 2vw;
+}
+.h1Top{
+    color: rgb(102, 102, 102);
+}
+.sign-out-btn {
+display: flex;
+justify-content: right;
+}
+.profileBtn {
+display: flex;
+justify-content: right;
+}
+.sign-out-btn:hover{
+    cursor: pointer;
+}

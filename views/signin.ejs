@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    
+<div class="container">
+
+<% if (message) { %>
+<div class="alert">
+<%= message %>
+</div>
+<% } %>
+
+    <form action="/signin" method="POST">
+        
+    <lable for="email">Email</lable>
+<div class="input-container">
+    
+    <input type="email" name="email" class="form-input" required/>
+    </div>
+    <lable for="password">Password</lable>
+<div class="input-container">
+    
+    <input type="password" name="password" class="form-input" required/>
+    </div>
+
+
+    <button type="submit" class="form-btn">SIGN IN</button>
+    </form>
+<div class="links-container">
+    Don't have an account? <a href="/signup">Sign Up</a>
+    </br>
+    Forgot your Password? <a href="/password_recovery">Recover</a>
+
+
+
+</div>
+</div>
+
+        <script src="main.js"></script>
+
+</body>
+</html>
